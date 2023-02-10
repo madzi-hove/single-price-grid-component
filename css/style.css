@@ -26,7 +26,8 @@ footer {
 
 .component {
 	inline-size: 90%;
-	align-self: center;
+	align-self: end;
+	margin-top: 2rem;
 	overflow: hidden;
 	border-radius: 8px;
 }
