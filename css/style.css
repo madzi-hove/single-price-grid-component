@@ -1,0 +1,33 @@
+/* General styles */
+:root {
+	--cyan: hsl(179, 62%, 43%);
+	--bright-yellow: hsl(71, 73%, 54%);
+	--light-grey: hsl(204, 43%, 93%);
+	--greyish-blue: hsl(218, 22%, 67%);
+}
+
+html {
+	block-size: 100%;
+}
+
+body {
+	display: grid;
+	justify-items: center;
+	min-block-size: 100%;
+	background-color: var(--light-grey);
+	box-sizing: border-box;
+	font-family: "Karla", sans-serif;
+}
+
+.component,
+footer {
+	max-inline-size: 600px;
+}
+
+.component {
+	inline-size: 90%;
+	align-self: center;
+	border: 1px solid blue;
+	overflow: hidden;
+	border-radius: 5px;
+}
