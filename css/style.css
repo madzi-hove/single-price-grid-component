@@ -27,7 +27,38 @@ footer {
 .component {
 	inline-size: 90%;
 	align-self: center;
-	border: 1px solid blue;
 	overflow: hidden;
 	border-radius: 5px;
+	border: 1px solid blue;
+}
+
+.component p {
+	line-height: 1.5;
+}
+
+/* card styles */
+section:first-child {
+	padding: 1.1rem;
+	color: var(--greyish-blue);
+	background-color: #fff;
+}
+
+h1 {
+	font-size: 1.5rem;
+	color: var(--cyan);
+}
+
+section > h2 {
+	color: var(--bright-yellow);
+}
+
+h2 {
+	font-size: 1.17rem;
+	color: #fff;
+}
+
+section:nth-child(2) {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	color: #fff;
 }
